@@ -43,23 +43,7 @@
 				"分类": "电影$151438147786375168#电视剧$151438147794763777#综艺$151438147807346691#动漫$151438147807346690"
 			}
 		},
-		{
-			"key": "无忧",
-			"name": "无忧┃海外",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": {
-				"数组": "module-item-cover&&module-item\"",
-				"副标题": "module-item-text\"&&</div>",
-				"线路数组": "data-dropdown-value=&&</div>",
-				"线路标题": "+<span>&&</small>[替换:</span><small>>>共]+集",
-				"播放链接": "https://www.wyys.cf/index.php/vod/play/id/+/play/id/&&.html+sid/1/nid/&&.html",
-				"分类url": "https://www.wyys.cf/index.php/vod/type/id/{cateId}/page/{catePg}.html",
-				"分类数组": "nav-menu-item&&</li>",
-				"分类标题": ">&&</a>",
-				"分类ID": "/index.php/vod/type/id/&&.html"
-			}
-		},
+		
 		{
 			"key": "海外看資源",
 			"name": "外看┃切片",
@@ -591,20 +575,7 @@
 			}
 		},
 		
-		{
-			"key": "csp_XBPQ_第一影院",
-			"name": "第一┃影院",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": {
-				"图片": "data-original=\"&&\"",
-				"分类url": "https://www.qianzhuowangye.com/dyyy/{area}/{class}/{cateId}/{catePg}/{year}/",
-				"分类": "电影解说$dyjs#电视剧$dsj#综艺$zy#动漫$dm#动画片$dhp#演唱会$ych#体育赛事$tyss"
-			}
-		},
+		
 		{
 			"key": "华乐",
 			"name": "华乐┃海外",
@@ -616,25 +587,6 @@
 				"图片": "data-src=\"&&\"",
 				"分类url": "https://www.huale.tv/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/{page/{catePg}/year/{year}.html",
 				"分类": "电视剧$2#电影$1#综艺$3#动漫$4"
-			}
-		},
-		{
-			"key": "看片狂人",
-			"name": "看片┃狂人",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": {
-				"免嗅": "1",
-				"副标题": "uk-position-bottom\">&&</span>",
-				"简介": "以下是剧情简介：&&</div>",
-				"线路数组": "class=\"fed-drop-btns fed-padding&&</li>",
-				"线路标题": "公子专属+>&&</a>",
-				"搜索url": "https://www.kpkuang.fun/vodsearch/-------------.html?wd={wd}",
-				"分类url": "https://www.kpkuang.fun/vodshow/{cateId}-{area}-------{catePg}--{class}-{year}--.html[https://www.kpkuang.fun/vodtype/{cateId}/]",
-				"分类": "电影$1#连续剧$2#综艺$3#动漫$4"
 			}
 		},
 		
@@ -695,40 +647,7 @@
 			]
 		},
 		
-		{
-			"key": "caiji_速播资源",
-			"name": "速播┃采集",
-			"type": 1,
-			"api": "https://subocaiji.com/api.php/provide/vod/at/json",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"categories": [
-				"综艺",
-				"体育赛事",
-				"动作片",
-				"喜剧片",
-				"爱情片",
-				"科幻片",
-				"恐怖片",
-				"剧情片",
-				"战争片",
-				"纪录片",
-				"伦理片",
-				"大陆剧",
-				"港澳剧",
-				"台湾剧",
-				"日剧",
-				"韩剧",
-				"美剧",
-				"泰剧",
-				"动漫",
-				"中国动漫",
-				"日本动漫",
-				"欧美动漫",
-				"动漫电影"
-			]
-		},
+		
 		{
 			"key": "caiji_猫放时光",
 			"name": "猫放┃采集",
