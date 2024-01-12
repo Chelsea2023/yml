@@ -1,16 +1,7 @@
 {
 	"spider": "./lib/yml.jar",
 	"sites": [
-		{
-			"key": "泥巴",
-			"name": "泥巴┃海外",
-			"type": 3,
-			"api": "csp_NiNi",
-			"searchable": 1,
-			"filterable": 1,
-			"changeable": 1,
-			"jar": "./lib/custom_spider.jar"
-		},
+	
 		{
 			"key": "dubok",
 			"name": "独播┃海外",
@@ -126,21 +117,7 @@
 				"分类": "电影$1#电视剧$2#综艺$3#动漫$4"
 			}
 		},
-		{
-			"key": "幸福",
-			"name": "幸福┃影院",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": {
-				"线路数组": "<a href=*&&/a>",
-				"线路标题": "alt=\"&&\"",
-				"数组": "vodlist_thumb lazyload&&</a>",
-				"播放数组": "content_playlist clearfix\">&&</ul>",
-				"简介": "content_desc full_text clearfix\" style=*>&&</span>",
-				"分类url": "https://seo.xingfu.tv/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-				"分类": "电影$1#剧集$2#综艺$3#动漫$4"
-			}
-		},
+		
 		{
 			"key": "439",
 			"name": "439┃影视",
@@ -248,28 +225,7 @@
 				"分类": "电影$1#连续剧$2#动漫$3#动画$43#国创$49#番剧$50#综艺$4"
 			}
 		},
-		{
-			"key": "7喜",
-			"name": "7喜┃影视",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": {
-				"请求头": "手机",
-				"图片": "data-src=\"&&\"",
-				"简介": "<div class=\"check selected\">&&</div>",
-				"标题": "title=\"&&\"",
-				"副标题": "public-list-prb hide ft2\">&&</span>",
-				"播放列表": "a&&</a>",
-				"播放数组": "<ul class=\"anthology-list-play size\">&&</ul>",
-				"线路数组": "<i class=\"fa ds-dianying\"&&</a>",
-				"线路标题": ">&&</a>",
-				"搜索url": "https://7xi.tw/vodsearch/page/{catePg}/wd/{wd}.html",
-				"捜索标题": "alt=\"&&\"",
-				"搜索副标题": "public-list-prb hide ft2\">&&</span>",
-				"分类url": "https://7xi.tw/vodtype/{cateId}/{area}/{by}/{class}/{catePg}/{year}.html",
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#4K电影$57#"
-			}
-		},
+		
 		{
 			"key": "csp_Bdys",
 			"name": "哔嘀┃影视",
@@ -320,41 +276,7 @@
 				"分类": "电视剧$2#电影$1#动漫$4#综艺$3"
 			}
 		},
-		{
-			"key": "乐视",
-			"name": "乐视┃资源",
-			"type": 1,
-			"api": "https://leshizyapi.com/api.php/provide/vod/at/json/",
-			"categories": [
-				"国产剧",
-				"短剧",
-				"台湾剧",
-				"香港剧",
-				"日本剧",
-				"欧美剧",
-				"综艺片",
-				"动画片",
-				"动作片",
-				"喜剧片",
-				"爱情片",
-				"科幻片",
-				"恐怖片",
-				"剧情片",
-				"战争片",
-				"电影解说",
-				"悬疑片",
-				"记录片",
-				"海外剧",
-				"其他片",
-				"大陆综艺",
-				"港台综艺",
-				"日韩综艺",
-				"欧美综艺",
-				"国产动漫",
-				"日本动漫",
-				"欧美动漫"
-			]
-		},
+		
 		{
 			"key": "xhc_ys",
 			"name": "小黄┃影视",
@@ -483,16 +405,6 @@
 			"ext": {
 				"分类url": "https://hw.jinmantv.com/index.php/vod/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 				"分类": "电视剧$2#电影$1#综艺$3#动漫$4"
-			}
-		},
-		{
-			"key": "兰花影院",
-			"name": "兰花┃海外",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": {
-				"分类url": "https://www.lanhuatv.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-				"分类": "电视剧$222#电影$1#综艺$3#动漫$4"
 			}
 		},
 		
